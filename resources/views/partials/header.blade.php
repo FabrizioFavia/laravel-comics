@@ -3,7 +3,7 @@
     <div class="topHeader  pe-4">
         <div class="container-lg d-flex justify-content-end">
             <ul class="d-flex align-items-center">
-                @foreach ($data as $item)
+                @foreach ($links as $item)
                     @if ($loop->first)
                         <li class="me-5">{{ $item }}</li>
                     @else
