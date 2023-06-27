@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+@include("config.store");
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,11 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $links = config('store.someLinks');
-    return view('welcome', compact('links'));
+    $data = ["DC POWER VISA", "ADDITIONAL DC SITES"];
+    $comics = config('store.comics');
+    $navItems = config('store.navItems');
+    return view('welcome', compact('comics', 'data', 'navItems'));
+    
 });
 
 Route::get('/otherpage', function () {
-    $links = config('store.someLinks');
-    return view('other', compact('links'));
+    $comics = config('store.comics');
+    return view('other', compact('comics'));
 });
