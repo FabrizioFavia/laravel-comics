@@ -23,7 +23,7 @@
                 <a class="me-4" href="{{ $item }}">{{$item}}</a>
                 @endif
             @endforeach
-            <div class="input-group mb-3">
+            <div class="input-group mb-3 ms-5">
                 <input type="text" class="form-control text-end" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
                 <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
               </div>

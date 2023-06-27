@@ -24,6 +24,7 @@ body {
     ul{
         list-style-type: none;
         height: 40px;
+        font-size: 12px;
     }
 }
 
@@ -50,6 +51,10 @@ body {
         display: flex;
     }
 
+    .input-group{
+        width: 180px;
+    }
+
     .input-group-text{
         border-top: 0;
         border-left: 0;
@@ -57,4 +62,22 @@ body {
         border-bottom: 2px solid #0282f9;
         border-radius: 0%;
     }
+}
+
+/* MAIN */
+
+.jumboContainer{
+    max-height: 400px;
+
+    img{
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        object-position: top;
+    }
+}
+
+.comicsContainer{
+    width: 100%;
+    height: 660px;
 }
