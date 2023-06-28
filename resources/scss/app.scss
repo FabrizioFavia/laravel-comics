@@ -157,6 +157,7 @@ body {
 
     li{
         list-style-type: none;
+        font-size: 12px;
     }
 
     a{
@@ -197,5 +198,23 @@ body {
     
     button:hover {
         background-color: #0282f9;
+    }
+
+    .social{
+        width: 35px;
+        height: 35px;
+        background-color: #646464;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+
+        &:hover{
+            background-color: #0282f9;
+        }
+    }
+
+    .logoContainer img{
+        width: 110%;
     }
 }

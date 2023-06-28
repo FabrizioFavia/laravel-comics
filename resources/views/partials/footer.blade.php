@@ -54,7 +54,7 @@
                             </div>
                         </div>
                         <div class="col-6 logoContainer">
-                            <img src="/assets/dc-logo-bg.png" alt="">
+                            <img src="{{ Vite::asset('resources/img/dc-logo-bg.png') }}" alt="">
                         </div>
                     </div>
                 </div>
@@ -68,11 +68,12 @@
             </div>
             <div class="RightPart d-flex justify-content-between align-items-center">
                 <h4 class="text-primary mt-2 me-3"><a href="">FOLLOW US</a></h4>
-                <img class="ms-3" src="/assets/footer-facebook.png" alt="">
-                <img class="ms-3" src="/assets/footer-twitter.png" alt="">
-                <img class="ms-3" src="/assets/footer-youtube.png" alt="">
-                <img class="ms-3" src="/assets/footer-pinterest.png" alt="">
-                <img class="ms-3" src="/assets/footer-periscope.png" alt="">
+                <div class="social me-3"><i class="fa-brands fa-facebook-f"></i></div>
+                <div class="social me-3"><i class="fa-brands fa-twitter"></i></div>
+                <div class="social me-3"><i class="fa-brands fa-youtube"></i></div>
+                <div class="social me-3"><i class="fa-brands fa-pinterest"></i></div>
+                <div class="social me-3"><i class="fa-brands fa-periscope"></i></div>
+
 
 
             </div>
